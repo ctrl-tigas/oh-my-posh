@@ -2,18 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-    "type": "prompt",
-    "alignment": "left",
-    "segments": [
-        {
-            "type": "text",
-            "style": "plain",
-            "template": "\u0000"
-        }
-    ],
-    "newline": true
-}
-    {
       "alignment": "left",
       "segments": [
         {
@@ -204,7 +192,8 @@
           "type": "status"
         }
       ],
-      "type": "prompt"
+      "type": "prompt",
+      "newline": true
     }
   ],
   "version": 3
